@@ -1,0 +1,43 @@
+.main-wrapper {
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  color: yellow;
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 83px;
+  background: yellowgreen;
+}
+
+.header-navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.turnkey-repair-section {
+  width: 94%;
+}
+
+.social-media-wrapper {
+  width: 6%;
+}
+
+.scroll-down {
+  position: absolute;
+}
+/*# sourceMappingURL=styles.css.map */

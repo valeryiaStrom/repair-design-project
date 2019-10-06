@@ -1,0 +1,37 @@
+.main-wrapper {
+
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  color: yellow;
+
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 83px;;
+  background: yellowgreen;
+}
+
+.header-navigation__list {
+  display: flex;
+}
+
+.top-section {
+  display: flex;
+  position: relative;
+}
+
+.turnkey-repair-section {
+  width: 94%;
+}
+
+.social-media-wrapper {
+  width: 6%;
+}
+
+.scroll-down {
+  position: absolute;
+}
