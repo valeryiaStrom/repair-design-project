@@ -7,75 +7,287 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Repair Project</title>
+  <title>Repair Design Project | by Valeryia Strom</title>
 </head>
 
 <body>
   <div class="main-wrapper">
 
     <header class="header">
-      <div class="logo"><img class="logo__img" src="" alt="logo"></div>
+      <div class="logo"><h1 class="logo__text">IC "Repair Design Project"</h1></div>
       <nav class="header-navigation">
         <ul class="header-navigation__list">
-          <li><a>home</a></li>
-          <li><a>projects</a></li>
-          <li><a>measurement</a></li>
-          <li><a>team</a></li>
-          <li><a>reviews</a></li>
-          <li><a>contacts</a></li>
+          <li class="header-navigation__item header-navigation__item_active"><a>home</a></li>
+          <li class="header-navigation__item"><a>projects</a></li>
+          <li class="header-navigation__item"><a>measurement</a></li>
+          <li class="header-navigation__item"><a>team</a></li>
+          <li class="header-navigation__item"><a>reviews</a></li>
+          <li class="header-navigation__item"><a>contacts</a></li>
         </ul>
       </nav>
       <div class="contact-section">
         <a class="contact-section__phone-link" href="tel:+7 (928) 768-32-39">+7 (928) 768-32-39</a>
-        <button class="contact-section__btn"></button>
+        <button class="contact-section__btn">request a call</button>
       </div>
     </header>
 
     <section class="top-section">
       <div class="social-media-wrapper">
-        <a class="social-media-wrapper__social-link" href="#">instagram</a>
+        <!-- <img class="social-media-wrapper__vector" src="./assets/images/Vector.svg" alt="vector"> -->
+        <div class="instagram-wrapper">
+          <a class="instagram-wrapper__social-link" href="#">instagram</a>
+          <!-- <img class="instagram-wrapper__vector" src="./assets/images/Vector.svg" height="51" alt="vector"> -->
+        </div>
+        <img class="instagram-wrapper__vector" src="./assets/images/Vector.svg" height="51" alt="vector">
       </div>
       <div class="turnkey-repair-section">
-        <span class="turnkey-repair-section__heading"></span>
-        <p class="turnkey-repair-section__text"></p>
-        <button class="turnkey-repair-section__calculate_btn"></button>
-        <button class="turnkey-repair-section__submit_btn"></button>
+        <div class="turnkey-repair-section__inner-wrapper">
+          <div class="turnkey-repair-section__heading">Turnkey Repair in the<br> city of <span class="turnkey-repair-section__heading_yellow">Rostov-on-Don</span></div>
+          <p class="turnkey-repair-section__text">Get ready-made turnkey repairs on time<br> with work time saving up to 45 days
+             and 20% from</br> cost of materials due to the organization of work</p>
+          <div class="turnkey-repair-section__buttons">
+            <button class="turnkey-repair-section__calculate_btn">calculate the cost</button>
+            <button class="turnkey-repair-section__submit_btn">submit your application</button>
+          </div>
+        </div>
       </div>
       <div class="scroll-down">
-        <span class="scroll-down__text"></span>
-        <a class="scroll-down__link" href="#">scroll down</a> <!--сюда еще иконку-->
+        <div class="scroll-down__text">scroll down</div>
+        <div class="scroll-down__circle">
+          <div class="scroll-down__icon-wrapper">
+            <a class="scroll-down__link" href="#"><img class="scroll-down__icon" src="./assets/images/Vector-scroll-down.svg" alt="scroll down"></a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="completed-projects-section">
       <div class="cities">
         <ul class="cities__list">
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="cities__item cities__item_selected">Rostov-on-Don, Admiral</li>
+          <li class="cities__item">Sochi Thieves</li>
+          <li class="cities__item">Rostov-on-Don Patriotic</li>
         </ul>
       </div>
-      <div class="content-area"></div>
-      <div class="svodki"></div>
-      <div class="slider"></div>
+      <div class="completed-projects-section__inner-wrapper">
+        <div class="completed-projects-section__content-area">
+            <div class="completed-projects-section__heading-wrapper">
+              <span class="completed-projects-section__heading">Completed<br> projects</span>
+            </div>
+            <img class="completed-projects-section__heading-line" src="" alt="">
+            <p class="completed-projects-section__text">Only a small part of the work performed by our company is presented on the site. 
+              For 14 years on in the construction market we have made happy more than 1000 families</p>
+            <div class="completed-projects-section__grid">
+              <div class="completed-projects-section__grid-item">
+                <p class="completed-projects-section__grid-item-heading">City:</p>
+                <p class="completed-projects-section__grid-item-value">Rostov-on-Don<br> LCD admiral</p>
+              </div>
+              <div class="completed-projects-section__flex-item">
+                <p class="completed-projects-section__grid-item-heading">apartment area:</p>
+                <p class="completed-projects-section__grid-item-value">81 m2</p>
+              </div>
+              <div class="completed-projects-section__grid-item">
+                <p class="completed-projects-section__grid-item-heading">Repair time:</p>
+                <p class="completed-projects-section__grid-item-value">3.5 months</p>
+              </div>
+              <div class="completed-projects-section__grid-item">
+                <p class="completed-projects-section__grid-item-heading">Repair Cost:</p>
+                <p class="completed-projects-section__grid-item-value">Upon request</p>
+              </div>
+            </div>
+            <div class="completed-projects-section__slider-dots">
+                <img class="slider-arrow" src="./assets/images/left-arrow.svg" alt="left arrow" width="41">
+                <img class="slider-dot slider-dot_active" src="./assets/images/inactive-circle.svg" alt="active slider dot" width="10" height="10">
+                <img class="slider-dot" src="./assets/images/inactive-circle.svg" alt="inactive slider dot" width="10" height="10">
+                <img class="slider-dot" src="./assets/images/inactive-circle.svg" alt="inactive slider dot" width="10" height="10">
+                <img class="slider-arrow" src="./assets/images/right-arrow.svg" alt="right arrow" width="41">
+            </div>
+        </div>
+        <div class="slider">
+          <div class="slider__content">
+            <img class="slider__img" src="./assets/images/slider-first-img1.png" alt="slider first image" width="679" height="482">
+            <img class="slider__img" src="./assets/images/slider-second-img.png" alt="slider second image" width="145" height="482">
+            <div class="slider__pagination-circle-wrapper">
+              <div class="slider__pagination-circle">
+                <img class="slider__pagination-circle-arrow" src="./assets/images/slider-circle-arrow.svg" alt="move to next slider" width="10" height="17">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- 
+      <section class="online-control-section">
+        <div class="online-control-section__heading-wrapper">
+          <div class="online-control-section__heading-text">online control</div>
+          <div class="online-control-section__heading-icons">
+              <img class="online-control-section__heading-icon" src="./assets/images/online-control-heading-line.svg" alt="line" width="32">
+              <img class="online-control-section__heading-icon" src="./assets/images/camera-icon.svg" alt="camera icon" width="33" height="28">
+              <img class="online-control-section__heading-icon" src="./assets/images/online-control-heading-line.svg" alt="line" width="32">
+          </div>
+        </div>
+        <div class="video-wrapper">
+          <iframe class="embedded-video" width="817" height="434" src="https://www.youtube-nocookie.com/embed/fafEHMnFe3g?wmode=transparent&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" modestbranding="1" rel="0" showinfo="0" allowfullscreen></iframe>
+          <div class="overlay"></div>
+        </div>
+
+      </section> -->
+
     </section>
 
+    
     <section class="online-control-section">
-      <div class="video"></div>
-      <div class=form-wrapper>
-        <form action="" method="get"></form>
+        <div class="online-control-section__heading-wrapper">
+          <div class="online-control-section__heading-text">online control</div>
+          <div class="online-control-section__heading-icons">
+              <div class="online-control-section__heading-line"></div>
+              <img class="online-control-section__heading-icon" src="./assets/images/camera-icon.svg" alt="camera icon" width="33" height="28">
+              <div class="online-control-section__heading-line"></div>
+          </div>
+        </div>
+        <div class="online-control-section__main-content">
+          <div class="online-control-section__column">
+            <div class="online-control-section__column-half"></div>
+            <div class="online-control-section__column-half"></div>
+          </div>
+          <div class="video-wrapper">
+            <iframe class="embedded-video" width="817" height="434" src="https://www.youtube-nocookie.com/embed/fafEHMnFe3g?wmode=transparent&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" modestbranding="1" rel="0" showinfo="0" allowfullscreen></iframe>
+            <div class="overlay"></div>
+          </div>
+          <div class="online-control-section__column">
+            <div class="online-control-section__column-half"></div>
+            <div class="online-control-section__column-half"></div>
+          </div>
+        </div>
+      </section>
+
+    <section class="form-section">
+      <div class="form-section__line-wrapper">
+        <div class="form-section__line" ></div>
       </div>
-    </section>
+      <p class="form-section__text">At each facility, a camera is installed that broadcasts the progress of work on the clock.<br> 
+        At any time, you can go to our website and monitor the progress of work in your apartment. 
+        You can watch the live broadcast from one of our facilities!<br> 
+        Leave a request below and you will receive a link to the broadcast.</p>
+      <div class=form-wrapper>
+        <form class="form" action="index.html" method="get">
+          <section class="name">
+            <label class="label" for="name">Name</label>
+            <input class="input-field" type="text" name="name" id="name" placeholder="What is your name:">
+          </section>
+          <section class="phone">
+            <label class="label" for="phone">Phone</label>
+            <input class="input-field" type="text" name="phone" id="phone" placeholder="Your phone number:">
+          </section>
+          <input class="submit-btn" type="submit" value="submit">
+          <div class="checkbox-container">
+            <input class="checkbox-field" type="checkbox" name="" id="checkbox-agreement" checked required>
+            <label for="checkbox-agreement">I agree to the processing of personal data</label>
+          </div>
+        </form>
+      </div>
+    </section> 
 
     <section class="types-of-repair-section">
-      <div class="redecorating"></div>
-      <div class="overhaul"></div>
-      <div class="designer-repair"></div>
+      <div class="heading">
+          <div class="heading__text">types of repair</div>
+          <div class="heading__icons">
+              <div class="heading__line"></div>
+              <img class="heading__icon" src="./assets/images/tools-icon.svg" alt="tools icon" width="28" height="28">
+              <div class="heading__line"></div>
+          </div>
+      </div>
+      <div class="types-of-repair">
+        <div class="type">
+          <div class="type__illustration type__illustration_redecorating"></div>
+          <div class="type__work-done">
+            <div class="type__work-done-inner-wrapper">
+              <h3 class="type__heading">Redecorating</h3>
+              <ul class="type__list">
+                <li>Dismantling of old coatings</li>
+                <li>Wallpapering</li>
+                <li>Painting walls and ceilings</li>
+                <li>Laying flooring</li>
+                <li>Replacing plumbing</li>
+                <li>Replacing sockets and switches</li>
+                <li>Replacing doors</li>
+              </ul>
+              <div class="type__price">from 900 rub / m2</div>
+            </div>
+          </div>
+        </div>
+        <div class="type">
+          <div class="type__illustration type__illustration_overhaul" ></div>
+          <div class="type__work-done">
+            <div class="type__work-done-inner-wrapper">
+              <h3 class="type__heading">Overhaul</h3>
+              <ul class="type__list">
+                <li>Dismantling of old coatings</li>
+                <li>Wallpapering</li>
+                <li>Painting walls and ceilings</li>
+                <li>Laying flooring</li>
+                <li>Replacing plumbing</li>
+                <li>Replacing sockets and switches</li>
+                <li>Replacing doors</li>
+              </ul>
+              <div class="type__price">from 1800 rub / m2</div>
+            </div>
+          </div>
+        </div>
+        <div class="type">
+          <div class="type__illustration type__illustration_designer-repair"></div>
+          <div class="type__work-done">
+            <div class="type__work-done-inner-wrapper">
+              <h3 class="type__heading">Designer Repair</h3>
+              <ul class="type__list">
+                <li>Dismantling of old coatings</li>
+                <li>Wallpapering</li>
+                <li>Painting walls and ceilings</li>
+                <li>Laying flooring</li>
+                <li>Replacing plumbing</li>
+                <li>Replacing sockets and switches</li>
+                <li>Replacing doors</li>
+              </ul>
+              <div class="type__price">from 4000 rub / m2</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="advantages-section">
-      <div class="advantages-illustration"></div>
-      <div class="advantages-form-wrapper"></div>
+      <div class="advantages-illustration">
+        <!-- <div class="advantages-illustration__circle"></div> -->
+        <img src="./assets/images/big-circle-img.png" alt="building on a white background" width="702" height="645">
+        <div class="advantages-illustration__circle"></div>
+        <div class="advantages-illustration__small-circle advantages-illustration__small-circle_first"></div>
+        <div class="advantages-illustration__small-circle advantages-illustration__small-circle_second"></div>
+        <div class="advantages-illustration__small-circle advantages-illustration__small-circle_third"></div>
+        <div class="advantages-illustration__small-circle advantages-illustration__small-circle_fourth"></div>
+      </div>
+      <div class="advantages-form-wrapper">
+        <form class="form" action="index.html" method="get">
+          <fieldset>
+              <legend>Leave a request for free<br> departure of the measurer</legend>
+              <section class="field-section field-section-name">
+                <label class="label" for="name">Name</label>
+                <input class="input-field" type="text" name="name" id="name" placeholder="What is your name:">
+              </section>
+              <section class="field-section field-section-phone">
+                <label class="label" for="phone">Phone</label>
+                <input class="input-field" type="text" name="phone" id="phone" placeholder="Your phone number:">
+              </section>
+              <section class="field-section field-section-email">
+                <label class="label" for="email">Phone</label>
+                <input class="input-field" type="text" name="email" id="email" placeholder="Your email">
+              </section>
+              <div class="checkbox-container">
+                <input class="checkbox-field" type="checkbox" name="" id="checkbox-agreement" checked required>
+                <label for="checkbox-agreement">I agree to the processing of personal data</label>
+              </div>
+              <input class="submit-btn" type="submit" value="Call the measurer">
+          </fieldset>
+        </form>
+      </div>
     </section>
 
     <section class="fantasies-section">
