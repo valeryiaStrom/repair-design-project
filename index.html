@@ -115,26 +115,8 @@
           </div>
         </div>
       </div>
-<!-- 
-      <section class="online-control-section">
-        <div class="online-control-section__heading-wrapper">
-          <div class="online-control-section__heading-text">online control</div>
-          <div class="online-control-section__heading-icons">
-              <img class="online-control-section__heading-icon" src="./assets/images/online-control-heading-line.svg" alt="line" width="32">
-              <img class="online-control-section__heading-icon" src="./assets/images/camera-icon.svg" alt="camera icon" width="33" height="28">
-              <img class="online-control-section__heading-icon" src="./assets/images/online-control-heading-line.svg" alt="line" width="32">
-          </div>
-        </div>
-        <div class="video-wrapper">
-          <iframe class="embedded-video" width="817" height="434" src="https://www.youtube-nocookie.com/embed/fafEHMnFe3g?wmode=transparent&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" modestbranding="1" rel="0" showinfo="0" allowfullscreen></iframe>
-          <div class="overlay"></div>
-        </div>
-
-      </section> -->
-
     </section>
 
-    
     <section class="online-control-section">
         <div class="online-control-section__heading-wrapper">
           <div class="online-control-section__heading-text">online control</div>
@@ -172,11 +154,11 @@
         <form class="form" action="index.html" method="get">
           <section class="name">
             <label class="label" for="name">Name</label>
-            <input class="input-field" type="text" name="name" id="name" placeholder="What is your name:">
+            <input class="input-field" type="text" name="name" id="name" placeholder="What is your name:" required>
           </section>
           <section class="phone">
             <label class="label" for="phone">Phone</label>
-            <input class="input-field" type="text" name="phone" id="phone" placeholder="Your phone number:">
+            <input class="input-field" type="text" name="phone" id="phone" placeholder="Your phone number:" required>
           </section>
           <input class="submit-btn" type="submit" value="submit">
           <div class="checkbox-container">
@@ -270,15 +252,15 @@
               <legend>Leave a request for free<br> departure of the measurer</legend>
               <section class="field-section field-section-name">
                 <label class="label" for="name">Name</label>
-                <input class="input-field" type="text" name="name" id="name" placeholder="What is your name:">
+                <input class="input-field" type="text" name="name" id="name" placeholder="What is your name:" required>
               </section>
               <section class="field-section field-section-phone">
                 <label class="label" for="phone">Phone</label>
-                <input class="input-field" type="text" name="phone" id="phone" placeholder="Your phone number:">
+                <input class="input-field" type="text" name="phone" id="phone" placeholder="Your phone number:" required>
               </section>
               <section class="field-section field-section-email">
                 <label class="label" for="email">Phone</label>
-                <input class="input-field" type="text" name="email" id="email" placeholder="Your email">
+                <input class="input-field" type="text" name="email" id="email" placeholder="Your email" required>
               </section>
               <div class="checkbox-container">
                 <input class="checkbox-field" type="checkbox" name="" id="checkbox-agreement" checked required>
@@ -287,41 +269,409 @@
               <input class="submit-btn" type="submit" value="Call the measurer">
           </fieldset>
         </form>
+        <div class="advantages-discount-wrapper">
+          <div class="discount__circle">
+            <img class="discount__img" src="./assets/images/pig-icon.svg" alt="piggy bank" width="40" height="33">
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="fantasies-section">
-      <div class="fantasies__content">
-        <div class="fantasies__heading"></div>
-        <div class="fantasies__nav"></div>
+    <section class="design-styles-section">
+      <div class="mob-column"></div>
+      <div class="design-styles-section__inner-wrapper">
+        <div class="design-styles-section__gradient-bg">
+          <div class="design-styles-section__content">
+            <h2 class="content__heading">We realize your<br> wildest fantasies</h2>
+            <div class="content__nav">
+              <ul class="content__list">
+                <li class="list__item list__item_active">American classic</li>
+                <li class="list__item">Empire</li>
+                <li class="list__item">Classical</li>
+                <li class="list__item">Loft</li>
+                <li class="list__item">Minimalism</li>
+                <li class="list__item">Provence</li>
+                <li class="list__item">Romanticism</li>
+                <li class="list__item">Scandinavian style</li>
+                <li class="list__item">Mediterranean style</li>
+                <li class="list__item">High tech</li>
+                <li class="list__item">Eclecticism</li>
+              </ul>
+            </div>
+          </div>
+          <div class="design-styles-section__illustrations">
+            <div class="illustrations__column">
+              <img class="illustrations__img illustrations__img_top" src="./assets/images/design-styles-img1.png" alt="illustration of one of the design styles in interior" width="354" height="557">
+              <img class="illustrations__img" src="./assets/images/design-styles-img2.png" alt="illustration of one of the design styles in interior" width="354" height="350">
+            </div>
+            <div class="illustrations__column">
+              <img class="illustrations__img illustrations__img_top" src="./assets/images/design-styles-img3.png" alt="illustration of one of the design styles in interior" width="354" height="275">  
+              <img class="illustrations__img" src="./assets/images/design-styles-img4.png" alt="illustration of one of the design styles in interior" width="354" height="625">           
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="fantasies__images"></div>
+      <div class="mob-column"></div>
     </section>
 
     <section class="design-project-section">
-      <div class="design-project-section__content">
-        <div class="design-project-section__icon"></div>
-        <p class="design-project-section__text"></p>
+      <div class="heading">
+        <h2 class="heading__text">design project</h2>
+        <div class="heading__icons">
+            <div class="heading__line"></div>
+            <img class="heading__icon" src="./assets/images/pencil-ruler-icon.svg" alt="a pencil and a ruler crossed" width="28" height="28">
+            <div class="heading__line"></div>
+        </div>
+        <div class="heading__copy">Design project not only helps to make the repair of your apartment more modern, but also significantly reduces the cost of materials and reduces the time of repair work.</div>
       </div>
-      <div class="design-project-section__blocks">
-        <div class="design-project-section__block"></div>
-        <div class="design-project-section__block"></div>
-        <div class="design-project-section__block"></div>
+      <div class="design-project-variants">
+        <div class="design-project-variants__column">
+          <div class="design-project-variants__column-half design-project-variants__column-half_top"></div>
+          <div class="design-project-variants__column-half design-project-variants__column-half_bottom"></div>
+        </div>
+        <div class="design-project-variants__variants">
+          <div class="variant">
+            <div class="variant__illustration variant__illustration_mini">
+              <div class="variant__illustration-bg_bordered"></div>
+            </div>
+            <div class="variant__scope-of-work">
+                <div class="variant__scope-of-work-inner-wrapper">
+                  <h3 class="variant__heading">Mini</h3>
+                  <ul class="variant__list">
+                    <li>Measurement drawing</li>
+                    <li>Redevelopment</li>
+                    <li>Layout of furniture</li>
+                    <li>Plumbing plan. equipment</li>
+                  </ul>
+                  <div class="variant__price variant__price_static">150 rub / m2</div>
+                </div>
+            </div>
+          </div>
+          <div class="design-project-variants__column-middle">
+              <div class="design-project-variants__column-middle-half design-project-variants__column-middle-half_top"></div>
+              <div class="design-project-variants__column-middle-half design-project-variants__column-middle-half_bottom"></div>
+          </div>
+          <div class="variant">
+            <div class="variant__illustration variant__illustration_standard">
+              <div class="variant__illustration-bg"></div>
+            </div>
+            <div class="variant__scope-of-work variant__scope-of-work_middle">
+                <div class="variant__scope-of-work-inner-wrapper">
+                  <h3 class="variant__heading">Standard</h3>
+                  <ul class="variant__list">
+                    <li>Measurement drawing</li>
+                    <li>Redevelopment</li>
+                    <li>Layout of furniture</li>
+                    <li>Plan of ceilings</li>
+                    <li>Floor Plan</li>
+                    <li>Electricians plan</li>
+                    <li>Lighting plan</li>
+                  </ul>
+                  <div class="variant__price  variant__price_absolute">400 rub / m2</div>
+                </div>
+            </div>         
+          </div>
+          <div class="design-project-variants__column-middle">
+              <div class="design-project-variants__column-middle-half design-project-variants__column-middle-half_top"></div>
+              <div class="design-project-variants__column-middle-half design-project-variants__column-middle-half_bottom"></div>
+          </div>
+          <div class="variant">
+            <div class="variant__illustration variant__illustration_full">
+              <div class="variant__illustration-bg"></div>
+            </div>
+            <div class="variant__scope-of-work variant__scope-of-work_last">
+                <div class="variant__scope-of-work-inner-wrapper">
+                  <h3 class="variant__heading">Full</h3>
+                  <ul class="variant__list">
+                    <li>Measurement drawing</li>
+                    <li>Redevelopment</li>
+                    <li>Layout of furniture</li>
+                    <li>Plan of ceilings</li>
+                    <li>Floor Plan</li>
+                    <li>Electricians plan</li>
+                    <li>Lighting plan</li>
+                    <li>Wall reamers</li>
+                    <li>3D visualization</li>
+                    <li>Bill of materials</li>
+                    <li>Departure for a selection of materials</li>
+                    <li>Furniture selection</li>
+                  </ul>
+                  <div class="variant__price variant__price_absolute">900 rub / m2</div>
+                </div>
+            </div>         
+          </div>
+        </div>
+        <div class="design-project-variants__column">
+          <div class="design-project-variants__column-half design-project-variants__column-half_top"></div>
+          <div class="design-project-variants__column-half design-project-variants__column-half_bottom"></div>
+        </div>
       </div>
     </section>
 
-    <section class="how-we-work-section"></section>
-    <section class="our-team-section"></section>
-    <section class="our-clients-section"></section>
-    <section class="reach-us-section">
-      <form action="" method="get"></form>
-      <div class="contacts"></div>
+    <section class="how-we-work-section">
+      <div class="grid">
+        <h2 class="heading">How we are working</h2>
+        <h3 class="subheading">6 steps to<br> the goal</h3>
+        <div></div>
+        <div class="step step_active">
+            <div class="step__number step__number_active">01</div>
+            <p class="step__name step__name_active">Departure to<br> room measurements</p>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <p class="step__name">Compilation<br> estimates</p>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <p class="step__name">Development<br> project design</p>
+        </div>
+        <div class="current-step">
+          <div class="current-step__number">1/6</div>
+          <h4 class="current-step__name">Departure for<br> measurements premises</h4>
+          <p class="current-step__description">After your call, we go to you to consult and measure the premises of your apartment. 
+            During our meeting, you can ask absolutely any number of questions. An appraiser-&nbsp;appraiser leaves to measure the room.</p>
+          <p class="current-step__description">He will advise you on the issues of repair technology, apartment design, terms of repair of the apartment as a whole and its individual stages.</p>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <p class="step__name">Purchasing Supplies</p>
+        </div>
+        <div class="step">
+          <div class="step__number">05</div>
+          <p class="step__name">Repair finishing work</p>
+        </div>
+        <div class="step">
+          <div class="step__number">06</div>
+          <p class="step__name">Приемка-сдача<br> работ</p>
+        </div>
+        <div class="illustration"></div>
+        <div class="step-switcher">
+          <img class="arrow" src="./assets/images/how-we-work__left-arrow.svg" alt="switch to previous step" width="42">
+          <img class="circle circle_active" src="./assets/images/how-we-work__dot.svg" alt="switch to step one" width="10" height="10">
+          <img class="circle" src="./assets/images/how-we-work__dot.svg" alt="switch to step two" width="10" height="10">
+          <img class="circle" src="./assets/images/how-we-work__dot.svg" alt="switch to step three" width="10" height="10">
+          <img class="circle" src="./assets/images/how-we-work__dot.svg" alt="switch to step four" width="10" height="10">
+          <img class="circle" src="./assets/images/how-we-work__dot.svg" alt="switch to step five" width="10" height="10">
+          <img class="circle" src="./assets/images/how-we-work__dot.svg" alt="switch to step six" width="10" height="10">
+          <img class="arrow" src="./assets/images/how-we-work__right-arrow.svg" alt="switch to next step" width="42">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="our-team-section">
+      <div class="heading">
+        <h2 class="heading__text">our team</h2>
+        <div class="heading__icons">
+          <div class="heading__line"></div>
+          <img class="heading__icon" src="./assets/images/team.svg" alt="several people representing a team" width="29" height="29">
+          <div class="heading__line"></div>
+        </div>
+        <div class="heading__copy">Our team has helped to become happier for more than 500 families and we are not going to stop</div>
+      </div>
+
+      <div class="team">
+        <div class="column">
+          <div class="column__half column__half_top"></div>
+          <div class="column__half column__half_bottom"></div>
+        </div>
+        <div class="team-member">
+          <div class="team-member__role-icon">
+            <img class="icon" src="./assets/images/idea.svg" alt="idea" width="44" height="44">
+          </div>
+          <div class="team-member__photo team-member__photo_pm"></div>
+          <div class="team-member__intro">
+            <div class="team-member__name">Dmitry Tulyakov</div>
+            <div class="team-member__role">Project manager</div>
+            <div class="team-member__experience">Work experience 8 years</div>
+          </div>
+        </div>
+        <div class="column_middle">
+          <div class="column__half column__half_top"></div>
+          <div class="column__half column__half_bottom"></div>
+        </div>
+        <div class="team-member">
+          <div class="team-member__role-icon">
+            <img class="icon" src="./assets/images/icon-role-2.svg" alt="" width="41" height="44">
+          </div>
+          <div class="team-member__photo team-member__photo_designer"></div>
+          <div class="team-member__intro">
+            <div class="team-member__name">Larisa Kotlyarova</div>
+            <div class="team-member__role">Designer</div>
+            <div class="team-member__experience">Work experience 6 years</div>
+          </div>
+        </div>
+        <div class="column_middle">
+          <div class="column__half column__half_top"></div>
+          <div class="column__half column__half_bottom"></div>
+        </div>
+        <div class="team-member">
+          <div class="team-member__role-icon">
+            <img class="icon" src="./assets/images/portfolio.svg" alt="portfolio" width="44" height="44">
+          </div>
+          <div class="team-member__photo team-member__photo_foreman"></div>
+          <div class="team-member__intro">
+            <div class="team-member__name">Alexey Efimov</div>
+            <div class="team-member__role">Foreman</div>
+            <div class="team-member__experience">Work experience 12 years</div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="column__half column__half_top"></div>
+          <div class="column__half column__half_bottom"></div>
+        </div>
+      </div>
+
+      <div class="team-description">
+        <div class="team-description__line"></div>
+        <p class="team-description__copy">Each employee of our company is a qualified full-time specialist with work experience of 6 years.<br> 
+          We do not have laborers and guest workers, each employee carries out work corresponding to his specialty.</p>
+      </div>
+    </section>
+
+    <section class="our-clients-section">
+      <div class="heading">
+        <h2 class="heading__text">our clients</h2>
+        <div class="heading__icons">
+          <div class="heading__line"></div>
+          <img class="heading__icon" src="./assets/images/hand-shaking-icon.svg" alt="hand shaking" width="34" height="28">
+          <div class="heading__line"></div>
+        </div>
+        <div class="heading__copy">80% of our customers recommend us to their friends and family.</div>
+      </div>
+
+      <div class="reviews">
+        <article class="review">
+          <div class="review__author">
+            <div class="author__photo author__photo_1"></div>
+            <div class="author__name">Fedosova Maria<br> Konstantinovna</div>
+          </div>
+          <p class="review__text">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. 
+            Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. 
+            Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
+          <div class="review__project-stats">
+            <div class="square">
+              <img class="square__icon" src="./assets/images/square-icon.svg" alt="square" width="32" height="31">
+              <span class="square__meters">40 m2</span> 
+            </div>
+            <div class="timing">
+              <img class="timing__icon" src="./assets/images/calendar-icon.svg" alt="calendar" width="33" height="31">
+              <span class="timing__days">48 days</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review">
+          <div class="review__author">
+            <div class="author__photo author__photo_2"></div>
+            <div class="author__name">Afanasyev Sergey<br> Alexandrovich</div>
+          </div>
+          <p class="review__text">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. 
+            Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. 
+            Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
+          <div class="review__project-stats">
+            <div class="square">
+              <img class="square__icon" src="./assets/images/square-icon.svg" alt="square" width="32" height="31">
+              <span class="square__meters">90 m2</span> 
+            </div>
+            <div class="timing">
+              <img class="timing__icon" src="./assets/images/calendar-icon.svg" alt="calendar" width="33" height="31">
+              <span class="timing__days">128 days</span>
+            </div>
+          </div>
+          </article>
+
+        <article class="review">
+          <div class="review__author">
+            <div class="author__photo author__photo_3"></div>
+            <div class="author__name">Kiriev Egor<br> Leonidovich</div>
+          </div>
+          <p class="review__text">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. 
+            Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. 
+            Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
+          <div class="review__project-stats">
+            <div class="square">
+              <img class="square__icon" src="./assets/images/square-icon.svg" alt="square" width="32" height="31">
+              <span class="square__meters">56 m2</span> 
+            </div>
+            <div class="timing">
+              <img class="timing__icon" src="./assets/images/calendar-icon.svg" alt="calendar" width="33" height="31">
+              <span class="timing__days">86 days</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contacts-section">
+      <div class="form-wrapper">
+        <h2 class="form-heading">have any questions?</h2>
+        <form class="form" action="index.html" method="get">
+          <section class="form__row form__row_1">
+            <div class="form__field">
+              <label class="label" for="name">Name</label>
+              <input class="input-field input-field_name" type="text" name="name" id="name" placeholder="What is your name:" required>
+            </div>
+            <div class="form__field">
+              <label class="label" for="phone">Phone</label>
+              <input class="input-field input-field_phone" type="text" name="phone" id="phone" placeholder="Your phone number:" required>
+            </div>
+          </section>
+          <section class="form__row form__row_2">
+            <label class="label" for="question">Question</label>
+            <input class="input-field input-field_question" type="text" name="question" id="question" placeholder="I want to know:" required>
+          </section>
+          <div class="checkbox-container">
+              <input class="checkbox-field" type="checkbox" name="" id="checkbox-agreement" checked required>
+              <label class="label" for="checkbox-agreement">I agree to the processing of personal data</label>
+          </div>
+          <div class="btn-container">
+            <input class="submit-btn" type="submit" value="submit">
+          </div>
+                   
+        </form>
+      </div>
+      <h3 class="contacts">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel <a class="contacts__tel-link" href="tel:+7 (928) 768 32 29">+7 (928) 768 32 29</a></h3>
+      <div class="social-icons">
+        <div class="social-icons__icon">
+          <a href="#"><img src="./assets/images/email-box-icon.svg" alt="email box" width="14" height="11"></a>
+        </div>
+        <div class="social-icons__icon">
+          <a href="#"><img src="./assets/images/instagram-icon.svg" alt="instagram" width="12" height="12"></a>
+        </div>
+      </div>
       <div class="map"></div>
     </section>
 
-    <footer></footer>
-
-
+    <footer class="footer">
+      <div class="footer__inner-wrapper">
+        <div class="logo">IC "Repair Design Project"</div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link nav__link_active" href="http://">home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="http://">projects</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="http://">measurement</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="http://">team</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="http://">reviews</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="http://">contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="footer__phone-link" href="tel:+7 (928) 768-32-39">+7 (928) 768-32-39</a>
+        <button class="call-request-btn">Request a call</button>
+      </div>
+    </footer>
 
   </div>
 
